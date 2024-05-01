@@ -13,7 +13,7 @@ and answer your message.
 
 ```text
 2010-07-19 12:32:12 you: Oye
-2010-07-19 12:32:15 flatmate: Yo.
+2010-07-19 12:32:15 flatmate: Yo
 # FLATMATE WAITS WHILE YOU PHRASE YOUR QUESTION
 2010-07-19 12:34:01 you: Chai piyega?
 2010-07-19 12:35:21 flatmate: Banade
