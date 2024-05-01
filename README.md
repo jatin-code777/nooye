@@ -11,7 +11,7 @@ To generate the HTML file from Markdown manually,
 [pandoc](https://github.com/jgm/pandoc) is used:
 
 ```
-pandoc --standalone --metadata pagetitle="nohello" --css "assets/css/pandoc.css" --output=index.html index.md
+pandoc --standalone --metadata pagetitle="nooye" --css "assets/css/pandoc.css" --output=index.html index.md
 ```
 
 ## Acknowledgements
