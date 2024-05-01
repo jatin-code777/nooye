@@ -1,6 +1,6 @@
-# Nohello
+# Nooye
 
-This is the source of [this](https://sbmueller.github.io/nohello/) website.
+This is the source of [this](https://jatin-code777.github.io/nooye/) website.
 
 ## Build
 
