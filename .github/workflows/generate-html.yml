@@ -14,11 +14,11 @@ jobs:
       - name: Run pandoc
         uses: docker://pandoc/latex:2.9
         with:
-          args: "pandoc --standalone --metadata pagetitle=\"nohello\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
+          args: "pandoc --standalone --metadata pagetitle=\"nooye\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
       - name: Commit
         run: |
-          git config --global user.name "Sebastian Müller"
-          git config --global user.email "gsenpo@gmail.com"
+          git config --global user.name "Jatin Sharma"
+          git config --global user.email "jatin.earth@gmail.com"
           git add index.html
           git commit -m "[BOT] Generate HTML from Markdown"
       - name: Push
