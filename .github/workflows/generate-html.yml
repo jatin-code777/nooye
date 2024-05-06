@@ -1,5 +1,6 @@
 name: generate-html
 on:
+  workflow_dispatch:
   push:
     paths:
       - "index.md"
@@ -14,7 +15,7 @@ jobs:
       - name: Run pandoc
         uses: docker://pandoc/latex:2.9
         with:
-          args: "pandoc --standalone --metadata pagetitle=\"nohello\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
+          args: "pandoc --standalone --metadata pagetitle=\"nooye\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
       - name: Commit
         run: |
           git config --global user.name "Sebastian Müller"

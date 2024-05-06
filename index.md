@@ -37,14 +37,14 @@ would do in person or on the phone. But Chat is neither of those things. Typing
 is much slower than talking. Instead of being polite, you are just making the
 other person wait for you to phrase your question, which is lost chai time.
 
-The same goes for "Oye -- Are you there?", "Hi Bob -- quick question.", "Do
+The same goes for "Oye -- Are you there?", "Oye Bob -- quick question.", "Do
 you have a sec ?", "yt?" and "ping". Just ask the question!
 
-If you feel it's brusque to simply say "Hi" and ask the question, you can do
+If you feel it's brusque to simply say "Oye" and ask the question, you can do
 something like this:
 
 ```text
-2010-07-19 12:32:12 you: Hi -- if you're not busy I was wondering if I could ask a question. Chai piyega?
+2010-07-19 12:32:12 you: Oye -- if you're not busy I was wondering if I could ask a question. Chai piyega?
 ```
 
 Additionally, asking your question before getting a reply allows asynchronous
@@ -68,7 +68,7 @@ Instead of sending a call probe, or asking "hey, do you have time for a call?"
 (which is better but not great), you can try something like this:
 
 ```text
-2020-07-08 12:32:12 you: Hi - do you have X min for a quick call to talk about chai?
+2020-07-08 12:32:12 you: Oye - do you have X min for a quick call to talk about chai?
 ```
 
 This does three things: it time bounds the request, it gives the recipient some
